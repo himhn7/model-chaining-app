@@ -32,7 +32,7 @@ Proof-of-concept full-stack app that fans out infrastructure planning to 3 AI cl
 Option A (single command):
 
 ```powershell
-./scripts/run_all.ps1
+./run_all.cmd
 ```
 
 Option B (two terminals):
@@ -90,3 +90,4 @@ Tests cover:
 
 - This is a POC with AI-estimated costs, not billing-grade pricing.
 - If Grok output is malformed JSON, the backend returns a pipeline failure error.
+
